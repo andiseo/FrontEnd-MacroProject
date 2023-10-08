@@ -35,6 +35,10 @@ span {
   margin: 0px 15px;
 }
 
+.btn-primary {
+  border: none;
+}
+
 .btn {
   border-radius: 10px;
   background: rgba(255, 155, 80, 0.98);
@@ -120,6 +124,10 @@ label {
 
 .card-body {
   gap: 72px;
+}
+
+.d-inline {
+  color: white;
 }
 
 footer {
