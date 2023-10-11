@@ -67,6 +67,20 @@ span {
   background: rgba(47, 47, 47, 0.98);
 }
 
+.btn-black {
+  border-radius: 5px;
+  background: rgba(27, 26, 26, 0.98);
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: rgba(27, 26, 26, 0.98);
+  font-weight: 600;
+}
+
 span2 {
   color: rgba(255, 155, 80, 0.98);
   font-family: Poppins;
@@ -166,4 +180,41 @@ footer {
 
 .room {
   background-color: #4a4a4a;
+}
+
+/* Payment */
+.btn-credit,
+.btn-credit-unselect {
+  width: 50%;
+  height: 50px;
+  color: white;
+}
+
+.btn-credit {
+  background-color: #9f9f9f;
+}
+
+.btn-credit-unselect {
+  background-color: #e6e6e6;
+  color: #7f7f7f;
+}
+
+.card-tittle {
+  background-color: #9f9f9f;
+  margin-top: -8px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn-pay {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.pay {
+  background-color: #fee8d7;
+  border-radius: 10px;
 }
