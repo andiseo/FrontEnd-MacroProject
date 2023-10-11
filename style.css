@@ -218,3 +218,35 @@ footer {
   background-color: #fee8d7;
   border-radius: 10px;
 }
+
+input {
+  border: 1px solid #ff9b50;
+}
+
+.card-form {
+  border-color: #ff9b50;
+  background-color: #fee8d7;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn-submit {
+  margin-top: 15px;
+  margin-right: 20px;
+  padding: 8px 5px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255, 155, 80, 0.98);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+  width: 40%;
+  align-items: center;
+}
+
+.btn-submit:hover {
+  color: rgba(255, 255, 255, 0.98);
+  background: rgba(47, 47, 47, 0.98);
+}
